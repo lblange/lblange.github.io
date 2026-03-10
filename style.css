@@ -36,11 +36,12 @@ section {
 }
 
 #nav a {
-  background: blue; color: #fff;
+  background: blue; 
+  color: #fff;
 }
 
 #nav a:hover {
-  background: blue;
+  background: black;
   color: white;
 }
 
@@ -48,7 +49,7 @@ section ul {
   display: flex;
   flex-direction: row;
   justify-content: right;
-  gap: 50px;
+  gap: 10px;
 
   padding: 10px;
 
@@ -71,6 +72,7 @@ h1 {
 #ueber p{
   width: 60vw;
   padding-top: 10px;
+  margin-bottom: 20px;
 
   font-size: 1.3rem;
   font-family: monospace;
